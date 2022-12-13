@@ -1,0 +1,1429 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "0554fc76-7ace-11ed-af34-f91e13218054",
+    "deck_config_uuid": "17467d50-7089-11ed-bfdf-367ddab4f951",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "17467d50-7089-11ed-bfdf-367ddab4f951",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    15.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 1000,
+            "name": "10_2",
+            "new": {
+                "bury": false,
+                "delays": [
+                    30.0,
+                    60.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 10
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 2.19,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 1
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "_editor_button_styles.css"
+    ],
+    "name": "gws",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "css": "@import url(\"_editor_button_styles.css\");\n\n.card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n.Problem {\n font-family: arial;\n font-weight: bold;\n font-size: 25px;\n text-align: left;\n color: black;\n background-color: white;\n}\n\n\n\n/*Start of style added by resize image add-on. Don't edit directly or the edition will be lost. Edit via the add-on configuration */\n.mobile .card img {height:unset  !important; width:unset  !important;}\n/*End of style added by resize image add-on*/",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Problem",
+                    "ord": 0,
+                    "perform-auto-markdown": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Statement",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Example",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Bi-Link",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Video",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Solution",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Comment",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Code",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Reference",
+                    "ord": 8,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Leetcode",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1,
+                        2,
+                        4,
+                        6
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "leetcode",
+                "difficulty::easy",
+                "tree_graph::tree",
+                "return_tye::tree_node",
+                "dfs"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "<div class=Problem> <span SpanField='mustache' class='edit:Problem'>{{edit:Problem}}</span> </div>\n<br>\n<br>\n<span SpanField='mustache' class='edit:Statement'>{{edit:Statement}}</span>\n<br>\n<br>\n<span SpanField='mustache' class='Example'>{{Example}}</span>\n<br>\n<br>\n<span SpanField='mustache' class='Video'>{{Video}}</span>\n<br>\n<hr>\n<span SpanField='mustache' class='Similar'></span>\n<br>\n<hr>\n<span SpanField='mustache' class='edit::Tags'>{{edit::Tags}}</span>\n\n<hr id=answer>\n<span SpanField='mustache' class='Solution'>{{Solution}}</span>\n<br>\n<br>\n<div id=\"comment\" > <span>Preview Comments: q t w b r <br></span> <span SpanField='mustache' class='edit:Comment'>{{edit:Comment}}</span></div>\n<script type=\"text/javascript\">\nvar c=document.getElementById(\"comment\"); \nvar d=c.getElementsByTagName(\"div\"); \nfor(i=0;i<d.length;i++) {\n    var l= d[i].innerHTML.charAt(0); \n    switch (l)\n    {\n        case \"q\":\n        d[i].style.color = \"red\"; \n        break;\n        case \"t\":\n        d[i].style.color = \"green\"; \n        break;\n        case \"w\":\n        d[i].style.color = \"black\"; \n        d[i].style.setProperty(\"text-decoration\", \"line-through\");  \n        break;\n        case \"b\":\n        d[i].style.setProperty(\"font-weight\", \"bold\");   \n        break;\n        case \"r\":\n        d[i].style.color = \"blue\"; \n        break;\n        case \"d\":\n        d[i].style.color = \"grey\"; \n        break;\n        default:\n        d[i].style.color = \"black\";\n    }                              \n}\n</script>\n<br>\n<br>\n<span SpanField='mustache' class='Code'>{{Code}}</span>\n<br>\n<br>\n<span SpanField='mustache' class='clickable::Tags'>{{clickable::Tags}}</span>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "<div class=Problem> <span SpanField='mustache' class='edit:Problem'>{{edit:Problem}}</span> </div>\n<br>\n<br>\n<span SpanField='mustache' class='edit:Statement'>{{edit:Statement}}</span>\n<br>\n<br>\n<span SpanField='mustache' class='Example'>{{Example}}</span>\n<br>\n<br>\n<span SpanField='mustache' class='Video'>{{Video}}</span>\n<br>\n<hr>\n<span SpanField='mustache' class='Similar'></span>\n<br>\n\n<span SpanField='mustache' class='clickable::Tags'>{{clickable::Tags}}</span>\n<hr>\n\n<div id=\"comment\" ><span>Preview Comments: q t w b r <br></span> <span SpanField='mustache' class='edit:Comment'>{{edit:Comment}}</span> </div>\n<script type=\"text/javascript\">\nvar c=document.getElementById(\"comment\"); \nvar d=c.getElementsByTagName(\"div\"); \nfor(i=0;i<d.length;i++) {\n    var l= d[i].innerHTML.charAt(0); \n    switch (l)\n    {\n        case \"q\":\n        d[i].style.color = \"red\"; \n        d[i].style.display = \"\"; \n        break;\n        case \"t\":\n        d[i].style.color = \"green\"; \n        d[i].style.display = \"\"; \n        break;\n        case \"w\":\n        d[i].style.color = \"black\"; \n        d[i].style.setProperty(\"text-decoration\", \"line-through\");  \n        d[i].style.display = \"\"; \n        break;\n        case \"b\":\n        d[i].style.setProperty(\"font-weight\", \"bold\");   \n        d[i].style.display = \"\"; \n        break;\n        case \"r\":\n        d[i].style.color = \"blue\"; \n        d[i].style.display = \"\"; \n        break;\n        case \"p\":\n        d[i].style.display = \"none\";\n\n    }                              \n}\n</script>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "1081. Smallest Subsequence of Distinct Characters 不同字符的最小子序列",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "QoRo%Q@M:4",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "402. Remove K Digits 去掉K位数字",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "MQ11ax^LSR",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "321. Create Maximum Number 创建最大数",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "N{:5qqID=v",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "316. Remove Duplicate Letters 移除重复字母",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "BPG&ED$2)2",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1208. Get Equal Substrings Within Budget 尽可能使字符串相等",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "O!*//wZg{e",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1074. Number of Submatrices That Sum to Target 元素和为目标值的子矩阵数量 ",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "BY0crl:#Qw",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1052. Grumpy Bookstore Owner 爱生气的书店老板",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "xM`v3T0Wgl",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1040. Moving Stones Until Consecutive II 移动石子直到连续 II",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "o.jRxcBk?;",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "978. Longest Turbulent Subarray 最长湍流子数组",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "KjFM<?Ix7R",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "995. Minimum Number of K Consecutive Bit Flips K 连续位的最小翻转次数",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "d.qj,32tHI",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "992. Subarrays with K Different Integers K 个不同整数的子数组",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "c?4Xh%nZ[t",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "567. Permutation in String 字符串中的全排列",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "z-]>Fks=t2",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "480. Sliding Window Median 滑动窗口中位数",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "uU]?&Dc5&P",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "438. Find All Anagrams in a String 找出字符串中所有的变位词",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "M`$gfTg|v#",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::anagram",
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "424. Longest Repeating Character Replacement 最长重复字符置换",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "rD_7un{c,c",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "239. Sliding Window Maximum 滑动窗口最大值",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "o0OkbR>)!]",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "76. Minimum Window Substring/Smallest Window containing Substring 最小窗口子串",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "Qa<Yl%{B@9",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "3. Longest Substring Without Repeating Characters 最长无重复字符的子串",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "tY&F?M.t%7",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "713. Subarrays with Product Less than a Target 乘积小于 K 的子数组",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "v:;)m?BY*f",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window",
+                "G::subarray"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "53. Maximum Subarray 最大子数组",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "Hqkn(>]M/S",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window",
+                "G::subarray"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "152. Maximum Product Subarray 求最大子数组乘积",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "MJkwdMpM8Y",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window",
+                "G::subarray"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "560. Subarray Sum Equals K 子数组和为K",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "LbzY^OAL<k",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window",
+                "G::subarray"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "325. Maximum Size Subarray Sum Equals k 最大子数组之和为k",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "KKnU:t<aX",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window",
+                "G::subarray"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "438. Find All Anagrams in a String 找到字符串中所有字母异位词 ",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "AS9PI.6Mci",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "242. Valid Anagram 验证变位词",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "q?tY}NC)6q",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window",
+                "G::subarray"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "49. Group Anagrams 群组错位词",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "ebrgN_Gp:",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window",
+                "G::subarray"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "209. Minimum Size Subarray Sum/Minimum Size Subarray Sum 长度最小的子数组",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "L75E67*[09",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "340. Longest Substring with K Distinct Characters 最多有K个不同自负的最长字符串 ",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "p4vL%FNYAy",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "904. Fruits into Baskets 水果成蓝",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "HkkJ^4x(t1",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "424. Longest Substring with Same Letters after Replacement 最长重复字符替换",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "fppC~qA<<R",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1100. Find K-Length Substrings With No Repeated Characters 长度为K的无重复字符字串",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "t[#s`d5<9D",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1004. Max Consecutive Ones III 最大连续1的个数之三",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "BsB)$,IXSB",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Maximum Sum Subarray of Size K ",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "oa2pM:6,Is",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "2099. Find Subsequence of Length K With the Largest Sum 找到和最大的长度为 K 的 子序列",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "EDb!:Lkdt_",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::sliding_window"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "349. Intersection of Two Arrays 两个数组相交",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "ez2#Dmg*/p",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "475. Heaters 加热器",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "l4FPc~,C%p",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "441. Arranging Coins 排列硬币",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "Kh1dS+pzK7",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "367. Valid Perfect Square 检验完全平方数",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "BkeP6l89WF",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "363. Max Sum of Rectangle No Larger Than K 最大矩阵和不超过K",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "luQ_F~pq]",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "354. Russian Doll Envelopes 俄罗斯娃娃信封",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "HP?)P!0g{?",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "611. Valid Triangle Number 合法的三角形个数",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "b*Vz),<xum",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "378. Kth Smallest Element in a Sorted Matrix 有序矩阵中第K小的元素",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "n4`5nC;_*+",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "69. Sqrt(x) 求平方根",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "gM1.[ZfpR<",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "410. Split Array Largest Sum 分割数组的最大值",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "I6TtCKG$YY",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "374. Guess Number Higher or Lower 猜数字大小",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "KRpK#{3fu_",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "658. Find K Closest Elements 寻找K个最近元素",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "d(Z!k7ewt<",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "719. Find K-th Smallest Pair Distance 找第K小的数对儿距离",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "O,u(qjv!dY",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "668. Kth Smallest Number in Multiplication Table 乘法表中的第K小的数字",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "DFA)mJ#x9z",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "644. Maximum Average Subarray II 子数组的最大平均值之二",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "k7Y`6Bt8`,",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "774. Minimize Max Distance to Gas Station 最小化去加油站的最大距离",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "H!-P7MujtT",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "778. Swim in Rising Water 在上升的水中游泳",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "oz~wOs*N1<",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "875. Koko Eating Bananas 科科吃香蕉",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "CT3vMvHlx,",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "878. Nth Magical Number 第N个神奇数字",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "uHAqJH#H34",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "162. Find Peak Element 求数组的局部峰值",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "N$*jPJe-4_",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "275. H-Index II 求H指数之二",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "zhkwQpD)F$",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1631. Path With Minimum Effort 最小体力消耗路径",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "z@-U<LcF~J",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "704. Order-agnostic Binary Search 二分搜索法",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "b9Ejmw2N{L",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "35. Search Insert Position/Floor of a Number 搜索插入位置",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "Au-$_v+HCD",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "162. Find Peak Element/Search Bitonic Array 求数组的局部峰值",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "NK7GSI2nb5",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "33. Search in Rotated Array 在旋转有序数组中搜索",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "r0%7_r+u`}",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "658. Find K Closest Elements/ K Closest Numbers 寻找K个最近元素",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "y?BHl~IaNs",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "310. Minimum Height Trees/ Minimum Height Tree LCCI 最小高度树",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "I7kM6(hrsP",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "33. Search in Rotated Sorted Array 在旋转有序数组中搜索",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "nu`K|sa|?i",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "81. Search in Rotated Sorted Array II/ Search in Rotated Array with Duplicates 在旋转有序数组中搜索之二",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "guid": "tt,zz1En$S",
+            "note_model_uuid": "0555a25c-7ace-11ed-af34-f91e13218054",
+            "tags": [
+                "G::binary_search"
+            ]
+        }
+    ]
+}
